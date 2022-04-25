@@ -1,0 +1,15 @@
+#ifndef __COMMON_H__
+#define __COMMON_H__
+
+#define CMD_FACE_DONT_EXIST     1
+#define NDN_BGP_COMMON_FACE_OFF    2
+#define CMD_PEER_EXIST     3
+#define NDN_BGP_COMMON_FACE_OFF    2
+#define NDN_BGP_COMMON_SESSION_OPEN  3
+#define NDN_BGP_COMMON_SESSION_CLOSE 4
+#define NDN_BGP_COMMON_SESSION_OFF 5
+#define NDN_BGP_COMMON_NACK        6
+
+
+
+#endif

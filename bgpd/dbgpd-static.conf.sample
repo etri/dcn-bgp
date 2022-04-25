@@ -1,0 +1,39 @@
+general
+{
+    network /dcn/
+    ; select sync protocol: chronosync or psync
+    sync-protocol psync
+    state-dir       /tmp/dbgp
+}
+
+security
+{
+    validator
+    {
+        rule
+        {
+            id "NLSR Hierarchical Rule"
+            for data
+            filter
+            {
+                type name
+                regex ^[^<KEY>]*<KEY><><><>$
+            }
+            checker
+            {
+                type hierarchical
+                sig-type rsa-sha256
+            }
+        }
+
+        trust-anchor
+        {
+            type any
+            ;file-name "root.cert"
+        }
+
+    }
+	signer-type  SHA256
+
+}
+
