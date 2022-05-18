@@ -1,3 +1,4 @@
+<img src="/images/topology.GIF" width="50%" height="%40">
 
 # /DCN/R1 Configuration  
 ## MW-NFD Face Creation  
