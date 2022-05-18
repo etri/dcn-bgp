@@ -50,6 +50,9 @@ $ sudo cp dbgpd-static.conf.sample dbgpd-static.conf
 $ mkdir -p /tmp/dbgp  
 $ dbgp
 
+# Exmaple Topology  
+<!--Please refer to [topology](/conf)  -->
+
 ## Releases
 
 DCN-BGP version is set to same as the base BGP routing protocol on Quagga.
