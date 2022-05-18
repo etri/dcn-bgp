@@ -51,7 +51,7 @@ $ mkdir -p /tmp/dbgp
 $ dbgp
 
 # Exmaple Topology  
-<!--Please refer to [topology](/conf)  -->
+Please refer to [topology](example_topology.md)
 
 ## Releases
 
