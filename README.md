@@ -51,7 +51,7 @@ $ mkdir -p /tmp/dbgp
 $ dbgp
 
 # Testing NDN-BGP  
-Please refer to [topology](example_topology.md)
+Please refer to [Configuration](example_topology.md)
 
 ## Releases
 
